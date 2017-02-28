@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!-- 放在页面开头位置 -->
+<script src="update-browser/scripts/bowser.js"></script>
+<script>
+  if (!((bowser.msie && bowser.version >= 10) || bowser.msedge || bowser.webkit || bowser.firefox))
+    location.replace('update-browser/index.html')
+</script>
+</body>
+</html>
